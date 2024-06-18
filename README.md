@@ -41,3 +41,5 @@ mamba env update -n dadaWRAP --file dadawrapp.yaml
 ```
 
 
+./dadaWRAP.0.3.sh -i datiseq/ -a GTGYCAGCMGCCGCGGTAA -A CCGYCAATTYMTTTRAGTTT  -cutap -figaro  -l 372
+
