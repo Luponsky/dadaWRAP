@@ -39,7 +39,7 @@ conda create -n dadaWRAP
 conda activate dadaWRAP
 mamba env update -n dadaWRAP --file dadawrapp.yaml
 ```
-
+mamba install figaro
 
 ./dadaWRAP.0.3.sh -i datiseq/ -a GTGYCAGCMGCCGCGGTAA -A CCGYCAATTYMTTTRAGTTT  -cutap -figaro  -l 372
 
