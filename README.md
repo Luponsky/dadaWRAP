@@ -62,8 +62,9 @@ mamba install -c bioconda ampwrap
 ### AmpWrap for Short Reads (Illumina)
 To process short-read 16S rRNA data from Illumina sequencing, use:
 
+Basic usage:
 ```sh
-ampwrap illumina -i input_directory -o output_directory
+ampwrap illumina -i input_directory -a forward_primer -A reverse_primer -l amplicon_length
 ```
 
 ### AmpWrap for Long Reads (Nanopore)
